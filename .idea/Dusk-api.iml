@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/dusk-master/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/dusk-master/app" isTestSource="false" packagePrefix="App\" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/bugsnag/bugsnag" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/bugsnag/bugsnag-psr-logger" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/container-interop/container-interop" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/deltadefense/dusk-core" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/firebase/php-jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/fzaninotto/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/illuminate/config" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/illuminate/container" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/illuminate/contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/illuminate/database" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/illuminate/events" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/illuminate/filesystem" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/illuminate/pagination" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/illuminate/support" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/illuminate/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/illuminate/validation" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/kylekatarnls/update-helper" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/nikic/fast-route" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/phpunit/php-token-stream" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/phpunit/phpunit-mock-objects" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/pimple/pimple" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/predis/predis" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/slim/slim" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/sofa/eloquence-base" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/sofa/eloquence-mappable" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/sofa/hookable" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/symfony/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/symfony/debug" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/symfony/polyfill-apcu" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/symfony/polyfill-php70" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/tobscure/json-api" />
+      <excludeFolder url="file://$MODULE_DIR$/dusk-master/vendor/webmozart/assert" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

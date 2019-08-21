@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/dusk-master/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/sofa/eloquence-mappable" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/sofa/eloquence-base" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/sofa/hookable" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/predis/predis" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/tobscure/json-api" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/bugsnag/bugsnag" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/bugsnag/bugsnag-psr-logger" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/container-interop/container-interop" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/illuminate/validation" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/illuminate/container" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/kylekatarnls/update-helper" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/illuminate/config" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/illuminate/events" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/illuminate/database" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/illuminate/filesystem" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/illuminate/pagination" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/illuminate/translation" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/deltadefense/dusk-core" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/composer" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/dusk-master/vendor/guzzlehttp/guzzle" />
+    </include_path>
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="$PROJECT_DIR$/dusk-master/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>
