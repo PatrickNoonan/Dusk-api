@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+# Register hooks to run before the app is live

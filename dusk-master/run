@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+COMPOSE_ENV="local"
+
+COMPOSE="docker-compose -f docker-compose.$COMPOSE_ENV.yml"
+
+if [ "$1" == "up" ]; then
+	shift 1
+
+	$COMPOSE up -d "$@"
+elif [ "$1" == "down" ]; then
+	$COMPOSE down
+elif [[ "$1" == "bot" ]]; then
+	shift 1
+
+	$COMPOSE run --rm $TTY web php /app/bot "$@"
+else
+	$COMPOSE ps
+fi
