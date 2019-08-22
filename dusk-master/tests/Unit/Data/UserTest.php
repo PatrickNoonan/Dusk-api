@@ -11,13 +11,14 @@ class UserTest extends \Tests\TestCase
         $model = new User;
 
         $model->create([
-            'username'       => 'test type',
-            'email'          => 'test_key',
+            //"guid"           => $this->uuid1(),
+            'username'       => 'TestName',
+            'email'          => 'test_key@test.com',
         ]);
 
-        $this->assertInstanceOf(\App\Data\Event\User\Created::class, $model->release()[0]);
-        $this->assertEquals('test-type', $model->leadType);
-        $this->assertEquals('test_key', $model->triggerKey);
+        //$this->assertInstanceOf(\App\Data\Event\User\Created::class, $model->release()[0]);
+        $this->assertEquals('TestName', $model->username);
+        $this->assertEquals('test_key@test.com', $model->email);
     }
 
     public function testEdit()
@@ -25,13 +26,13 @@ class UserTest extends \Tests\TestCase
         $model = new User;
 
         $model->edit([
-            'username'       => 'test type',
-            'email'          => 'test_key',
+            'username'       => 'TestName',
+            'email'          => 'test_key@test.com',
         ]);
 
-        $this->assertInstanceOf(\App\Data\Event\User\Updated::class, $model->release()[0]);
-        $this->assertEquals('test-type', $model->username);
-        $this->assertEquals('test_key', $model->email);
+        //$this->assertInstanceOf(\App\Data\Event\User\Updated::class, $model->release()[0]);
+        $this->assertEquals('TestName', $model->username);
+        $this->assertEquals('test_key@test.com', $model->email);
     }
 
     public function testDelete()
