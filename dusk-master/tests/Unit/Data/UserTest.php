@@ -12,12 +12,12 @@ class UserTest extends \Tests\TestCase
 
         $model->create([
             //"guid"           => $this->uuid1(),
-            'username'       => 'TestName',
+            'username'       => 'TestKey',
             'email'          => 'test_key@test.com',
         ]);
 
         //$this->assertInstanceOf(\App\Data\Event\User\Created::class, $model->release()[0]);
-        $this->assertEquals('TestName', $model->username);
+        $this->assertEquals('TestKey', $model->username);
         $this->assertEquals('test_key@test.com', $model->email);
     }
 
@@ -25,14 +25,19 @@ class UserTest extends \Tests\TestCase
     {
         $model = new User;
 
-        $model->edit([
-            'username'       => 'TestName',
+        $model->create([
+            'username'       => 'TestKey',
             'email'          => 'test_key@test.com',
         ]);
 
+        $model->edit([
+            'username'       => 'TestKey',
+            'email'          => 'test_keyEdited@test.com',
+        ]);
+
         //$this->assertInstanceOf(\App\Data\Event\User\Updated::class, $model->release()[0]);
-        $this->assertEquals('TestName', $model->username);
-        $this->assertEquals('test_key@test.com', $model->email);
+        $this->assertEquals('TestKey', $model->username);
+        $this->assertEquals('test_keyEdited@test.com', $model->email);
     }
 
     public function testDelete()
