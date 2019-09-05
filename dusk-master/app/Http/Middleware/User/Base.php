@@ -9,12 +9,13 @@ use App\Data\Repository\UserInterface;
 abstract class Base extends AbstractMiddleware
 {
     /**
-     * @var \App\Data\Repository\LeadSourceInterface
+     * @var \App\Data\Repository\LeadSourceInterface|UserInterface
      */
     protected $repo;
 
     /**
-     * @param \App\Data\Repository\LeadSourceInterface $repo
+     * Base constructor.
+     * @param UserInterface $repo
      */
     public function __construct(UserInterface $repo)
     {

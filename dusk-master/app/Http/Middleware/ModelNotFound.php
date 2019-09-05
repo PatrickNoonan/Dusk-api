@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\Http\Middleware;
-
 
 use Dusk\Http\AbstractMiddleware;
 use Dusk\Exception\NotFoundException;
